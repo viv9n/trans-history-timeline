@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	background-color: #DCDDDE;
+}
+
+img {
+	opacity: 50%;
+	position: absolute;
+}
+
+h1 {
+	position: absolute;
+	font-family: adobe-caslon-pro, serif;
+	font-variant: small-caps;
+	font-weight: 400;
+	text-align: center;
+	font-size: 55pt;
+	left: 424px;
+	top: 78px;
+	line-height: 0.8;
+}
+
+h2 {
+	position: absolute;
+	font-family: adobe-garamond-pro, serif;
+	font-weight: 400;
+	font-size: 38pt;
+	left: 633px;
+	top: 196px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 437px 1fr 437px;
+	grid-template-rows: 1fr;
+	height: 128px;
+	width: 100vw;
+	position: absolute;
+	font-family: adobe-garamond-pro, serif;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 38pt;
+	transition-duration: 1s;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.ral {
+	padding-top: 35px;
+	text-align: right;
+}
+
+.cal {
+	padding-top: 35px;
+	text-align: center;
+}
+
+.lal {
+	padding-top: 35px;
+	text-align: left;
+}
+
+.premod {
+	top: 320px;
+	background-color: #F59C68;
+}
+
+.mughal {
+	top: 448px;
+	background-color: #76cc78;
+}
+
+.british {
+	top: 576px;
+	background-color: #F59FAA;
+}
+
+.post {
+	top: 704px;
+	background-color: #86B4E0;
+}
+
+.modern {
+	top: 832px;
+	background-color: #FFD363;
+}
+
+.premod:hover {
+	position: absolute;
+	scale: 1.2;
+	background-image: url("https://i.imgur.com/1lDNh2y.jpeg");
+	background-blend-mode: screen;
+	background-position-y: 450px;
+}
+
+.mughal:hover {
+	position: absolute;
+	scale: 1.2;
+	background-image: url("https://64.media.tumblr.com/9620bbf26280e242b92bc20fed66506d/5f651ac892f2a76c-6d/s640x960/d2f8ece45c2b62a7d21c1754e9fcfc8b1e5823d0.png");
+	background-blend-mode: screen;
+	background-position-y: 300px;
+}
+
+.british:hover {
+	position: absolute;
+	scale: 1.2;
+	background-image: url("https://i0.wp.com/www.historyworkshop.org.uk/wp-content/uploads/2019/04/Hinchy-feat.png");
+	background-blend-mode: screen;
+	background-position-y: 370px;
+}
+
+.post:hover {
+	position: absolute;
+	scale: 1.2;
+	background-image: url("https://i.imgur.com/Eb0605h.png");
+	background-blend-mode: screen;
+	background-position-y: 550px;
+}
+
+.modern:hover {
+	position: absolute;
+	scale: 1.2;
+	background-image: url("https://static01.nyt.com/images/2018/02/18/fashion/28THELOOK1/28THELOOK1-superJumbo.jpg");
+	background-blend-mode: screen;
+	background-position-y: 1200px;
+}
